@@ -1,0 +1,92 @@
+.navbar-brand {
+width: 250px
+}
+/* navbar Default */
+.navbar-default {
+background-color: #f8f8f8;
+border-color: #e7e7e7;
+}
+.navbar {
+border-radius: 0px;
+margin-bottom: 15px;
+}
+/* navbar purple */
+.navbar-purple {
+background-color: #573d7e;
+border: none;
+}
+/* change logo text color and hover color */ 
+.navbar-purple .navbar-brand {
+color: #fff
+}
+.navbar-purple .navbar-brand:hover, .navbar-purple .navbar-brand:focus {
+color: #ccc
+}
+/* Change nav links color */
+.navbar-purple .navbar-nav > li > a {
+color: #e7e7e7
+}
+.navbar-purple .navbar-nav > li > a:hover {
+color: #fff
+}
+/* change visited color */
+.navbar-purple .navbar-nav > li > a:focus {
+color: #fff
+}
+/* form */
+.navbar-purple .form-control {
+border-radius: 4;
+border: none
+}
+.navbar-purple .form-control {
+border: 1px solid #4c3272
+}
+.navbar-purple .btn {
+border: 1px solid #4c3272
+}
+/* open drop down background color */
+.navbar-purple .navbar-nav .open .dropdown-menu {
+background: #fff
+}
+/* mobile toggle nav icon */
+.navbar-purple .navbar-toggle {
+border-color: #e7e7e7
+}
+.navbar-purple .navbar-toggle .icon-bar {
+background-color: #e7e7e7
+}
+.navbar-purple .navbar-toggle:focus, .navbar-purple .navbar-toggle:hover {
+background-color: #fff
+}
+.navbar-purple .navbar-toggle:focus .icon-bar, .navbar-purple .navbar-toggle:hover .icon-bar {
+background-color: #3b5998
+}
+.container{
+	width: 80%;
+}
+.navbar-bottom {
+  border-radius: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+  color: #fff;
+}
+
+.btn-purple {
+background-color: #573d7e;
+color: #fff;
+border: none;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #573d7e;
+    border: 1px solid #e7e7e7;
+    border-color: #e7e7e7;
+    color: #FFF;
+    display:none;
+}
+
